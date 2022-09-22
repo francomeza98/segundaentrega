@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    background-color: black;
+    
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    ;
+}
+.navcolor{
+    background-color: rgb(206, 42, 42);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+p{
+    color:white;
+}
+.logo{
+    width: 40px;
+    height: auto;
+}
+main div img{
+    height: 45vh; 
+}
+.carousel-inner{
+    text-align: center;
+}
+nav img {
+    width: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+footer{
+    background-color: rgb(206, 42, 42);
+}
+.tabladepedidos{text-align: center;
+    color: white;
+}
+
+
+.intelamd{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.maps{
+    width: 460px;
+}
+.grid_armapc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+    
+}
+.items_productos{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.productos_title{
+    position: relative;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+@media screen and (min-width:413px){
+    .grid-container1{
+        grid-template-columns: repeat(1,1fr)
+    }
+    .grid_armapc{
+        grid-template-columns: repeat(1,1fr)
+    }
+    }
+
+
+@media screen and (min-width:768px){
+    .grid-container1{
+        grid-template-columns:repeat(2,1fr) ;
+    }
+    .grid_armapc{
+        grid-template-columns: repeat(1,1fr)
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .grid-container1{
+        grid-template-columns:repeat(3,1fr) ;
+    }
+    .grid_armapc{
+        grid-template-columns: repeat(2,1fr)
+    }
+}
+
+
+
+
+  
+  
+
+
+
+
